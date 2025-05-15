@@ -1,0 +1,216 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Layout para footer fixo */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.site-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+/* Container genérico */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Tipografia */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #8B0000;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  background-color: #600000;
+}
+
+/* Hero */
+.hero {
+  background: url('banner.jpg') center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+  background-color: #111; /* fallback */
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #8B0000;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #600000;
+}
+
+/* Destaques */
+.destaques {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+}
+
+.destaques h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.destaques ul {
+  list-style: disc inside;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Footer */
+footer {
+  background-color: #8B0000;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: underline;
+  margin: 0 5px;
+}
+
+/* Estilo para formulários (Contato e Trabalhe) */
+section.contato,
+section.trabalhe {
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+section.contato h2,
+section.trabalhe h2 {
+  font-size: 2em;
+  color: #8B0000;
+  margin-bottom: 10px;
+}
+
+section.contato p,
+section.trabalhe p {
+  margin-bottom: 20px;
+  font-size: 1em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form label {
+  font-weight: bold;
+  color: #333;
+}
+
+form input,
+form textarea,
+form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 1em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+form input[type="file"] {
+  border: none;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+.btn {
+  background-color: #8B0000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-start;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #600000;
+}
+
+.whatsapp {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.whatsapp .btn {
+  background-color: #25D366;
+}
+
+.whatsapp .btn:hover {
+  background-color: #1ebe5a;
+}
