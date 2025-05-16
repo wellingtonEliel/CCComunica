@@ -39,7 +39,7 @@ body {
 
 /* Header */
 header {
-  background-color: #8B0000;
+  background-color: #8b4a09;
   color: #fff;
   padding: 20px 0;
 }
@@ -67,7 +67,7 @@ nav a {
 
 nav a:hover,
 nav a.active {
-  background-color: #600000;
+  background-color: #8b4a09;
 }
 
 /* Hero */
@@ -90,7 +90,7 @@ nav a.active {
 }
 
 .btn {
-  background-color: #8B0000;
+  background-color: #FF7F00;
   color: #fff;
   padding: 12px 24px;
   text-decoration: none;
@@ -99,7 +99,7 @@ nav a.active {
 }
 
 .btn:hover {
-  background-color: #600000;
+  background-color: #8b4a09;
 }
 
 /* Destaques */
@@ -121,7 +121,7 @@ nav a.active {
 
 /* Footer */
 footer {
-  background-color: #8B0000;
+  background-color: #FF7F00;
   color: white;
   text-align: center;
   padding: 15px 0;
@@ -143,7 +143,7 @@ section.trabalhe {
 section.contato h2,
 section.trabalhe h2 {
   font-size: 2em;
-  color: #8B0000;
+  color: #FF7F00;
   margin-bottom: 10px;
 }
 
@@ -187,7 +187,7 @@ form textarea {
 }
 
 .btn {
-  background-color: #8B0000;
+  background-color: #FF7F00;
   color: white;
   padding: 12px 20px;
   border: none;
