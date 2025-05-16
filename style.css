@@ -214,3 +214,22 @@ form textarea {
 .whatsapp .btn:hover {
   background-color: #1ebe5a;
 }
+
+header .logo {
+  display: block;
+  margin: 0 auto 10px auto; /* centraliza horizontalmente */
+  max-width: 120px; /* controla o tamanho máximo */
+  height: auto;
+}
+
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Estilo do logo no canto esquerdo */
+.logo {
+  max-width: 120px;
+  height: auto;
+}
